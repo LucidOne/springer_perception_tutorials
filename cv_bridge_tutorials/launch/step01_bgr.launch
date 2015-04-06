@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="rosbag" type="play" name="player" output="screen" args="$(find cv_bridge_tutorials)/data/tennis.bag"/>
+    <node pkg="cv_bridge_tutorials" type="step01_bgr.py" name="demo"/>
+</launch>

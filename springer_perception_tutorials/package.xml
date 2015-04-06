@@ -1,0 +1,18 @@
+<package>
+  <name>springer_perception_tutorials</name>
+  <version>0.0.0</version>
+
+  <description>
+  This metapackage contains the Springer ROS perception tutorials
+  </description>
+
+  <maintainer email="bill@neautomation.com">Bill Morris</maintainer>
+  <url type="website">http://ros.org/wiki/springer_perception_tutorials</url>
+  <url type="bugtracker">https://github.com/springer-ros/springer_perception_tutorials/issues</url>
+  <url type="repository">https://github.com/springer-ros/springer_perception_tutorials</url>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>cv_bridge_tutorials</run_depend>
+</package>

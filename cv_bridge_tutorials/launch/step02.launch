@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="rosbag" type="play" name="player" output="screen" args="$(find cv_bridge_tutorials)/data/tennis.bag"/>
+    <node pkg="cv_bridge_tutorials" type="step02.py" name="demo"/>
+    <node pkg="image_view" name="image_view" output="screen" type="image_view">
+        <remap from="image" to="/camera/image_debug"/>
+    </node>
+</launch>
