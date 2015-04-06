@@ -1,0 +1,7 @@
+#Logitech UVC cameras (Vendor ID:046d)
+
+#World Readable Camera
+#SUBSYSTEMS=="usb", ATTRS{idVendor}=="046d", MODE="0666"
+
+#Camera owned by group video
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="046d", GROUP="video"
